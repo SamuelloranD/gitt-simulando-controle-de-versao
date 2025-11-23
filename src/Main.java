@@ -10,7 +10,16 @@ public class Main {
         double a = sc.nextDouble();
         double b = sc.nextDouble();
 
-        double resultado = Adicao(a, b);
+        double resultadoAdicao = Adicao(a, b);
         System.out.println("Resultado: " + resultado);
+
+        System.out.println("Operações:");
+
+        int numero1 = 10;
+        int numero2 = 4;
+        int resultadoSubtracao = numero1 - numero2;
+
+        System.out.println("Resultado da subtração: " + resultadoSubtracao);
+        System.out.println("Resultado da adição: " + resultadoAdicao);
     }
 }
