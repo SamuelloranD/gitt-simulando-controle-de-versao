@@ -11,15 +11,13 @@ public class Main {
         double b = sc.nextDouble();
 
         double resultadoAdicao = Adicao(a, b);
-        System.out.println("Resultado: " + resultado);
+        System.out.println("Resultado da adição: " + resultadoAdicao);
 
-        System.out.println("Operações:");
 
         int numero1 = 10;
         int numero2 = 4;
         int resultadoSubtracao = numero1 - numero2;
 
         System.out.println("Resultado da subtração: " + resultadoSubtracao);
-        System.out.println("Resultado da adição: " + resultadoAdicao);
     }
 }
